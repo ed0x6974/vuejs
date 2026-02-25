@@ -1,0 +1,19 @@
+#cards {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid black;
+  position: relative;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  border-width: 10px;
+  border-style: solid;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
